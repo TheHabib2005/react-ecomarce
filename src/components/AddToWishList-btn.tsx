@@ -1,5 +1,5 @@
 import { useUser } from '@clerk/clerk-react'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { FaHeart } from 'react-icons/fa6'
 import { delay } from "./../../utils/index"
 import toast from 'react-hot-toast'

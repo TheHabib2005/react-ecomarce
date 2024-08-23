@@ -57,7 +57,7 @@ const Home = () => {
             localStorage.removeItem("isUserSaved")
 
         }
-    }, [isSignedIn, user, signOut])
+    }, [isSignedIn, user, signOut, isUserSaved, isLoaded, addUser])
 
 
 
